@@ -1,0 +1,37 @@
+
+.container {
+    .content {
+        margin: 50px 0;
+    }
+    .chatMe {
+        :global {
+            .am-list-line .am-list-extra {
+                flex-basis: auto;
+            }
+        }
+        :global {
+            .am-list-line .am-list-content {
+                padding-right: 15px;
+                text-align: right;
+            }
+        }
+    }
+    .stickyBottom {
+        z-index: 2;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #ccc;
+    } .smile {
+        position: absolute;
+        vertical-align: middle;
+        right: 50px;
+        bottom: 8px
+    }
+}
+.stickyHeader {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
